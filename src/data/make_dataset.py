@@ -4,7 +4,7 @@ from pathlib import Path
 from sklearn.model_selection import train_test_split
 
 # Define the path to the external data directory
-path = Path('/media/aqib/Software/My Boys Team Projects/project week 1/End-To-End-Malicious-Classification/data/raw')
+path = Path('/media/aqib/Software/My Boys Team Projects/project week 1/End-To-End-Malicious-Classification/data/raw_data')
 # Function to load datasets
 def load_data():
     spam_df = pd.read_csv(path / 'features-domain_Spam.csv')
@@ -30,12 +30,7 @@ def preprocess_data(spam_df, phishing_df, malware_df, benign_df):
     full_df = pd.concat([spam_df, phishing_df, malware_df, benign_df], ignore_index=True)
     return full_df
 
-# Function to split datasets
-def split_data(full_df):
-    X = full_df.drop('label', axis=1)
-    y = full_df['label']
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    return X_train, X_test, y_train, y_test
+
 
 
 
@@ -47,12 +42,13 @@ if __name__ == '__main__':
     full_df = preprocess_data(spam_df, phishing_df, malware_df, benign_df)
     
     # Split the data
-    X_train, X_test, y_train, y_test = split_data(full_df)
+    # X_train, X_test, y_train, y_test = split_data(full_df)
     
     # Save the processed data
-    PROCESSED_DATA_PATH = Path('/media/aqib/Software/My Boys Team Projects/project week 1/End-To-End-Malicious-Classification/data/processed')
+    PROCESSED_DATA_PATH = Path('/media/aqib/Software/My Boys Team Projects/project week 1/End-To-End-Malicious-Classification/data/processed_data')
     # os.makedirs(PROCESSED_DATA_PATH, exist_ok=True)
-    X_train.to_csv(PROCESSED_DATA_PATH / 'X_train.csv', index=False)
-    X_test.to_csv(PROCESSED_DATA_PATH / 'X_test.csv', index=False)
-    y_train.to_csv(PROCESSED_DATA_PATH / 'y_train.csv', index=False)
-    y_test.to_csv(PROCESSED_DATA_PATH / 'y_test.csv', index=False)
+    full_df.to_csv(PROCESSED_DATA_PATH/'dataset.csv')
+    # X_train.to_csv(PROCESSED_DATA_PATH / 'X_train.csv', index=False)
+    # X_test.to_csv(PROCESSED_DATA_PATH / 'X_test.csv', index=False)
+    # y_train.to_csv(PROCESSED_DATA_PATH / 'y_train.csv', index=False)
+    # y_test.to_csv(PROCESSED_DATA_PATH / 'y_test.csv', index=False)

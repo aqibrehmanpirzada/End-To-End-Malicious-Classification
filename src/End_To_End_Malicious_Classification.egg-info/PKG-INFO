@@ -6,3 +6,7 @@ Author: aqibrehmanpirzada
 Author-email: aqibrehmanpirzada75@gmail.com
 Project-URL: Bug Tracker, https://github.com/aqibrehmanpirzada/End-To-End-Malicious-Classification/issues
 License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn

@@ -8,10 +8,5 @@ src/End_To_End_Malicious_Classification.egg-info/requires.txt
 src/End_To_End_Malicious_Classification.egg-info/top_level.txt
 src/data/__init__.py
 src/data/make_dataset.py
-src/features/__init__.py
-src/features/build_features.py
-src/models/__init__.py
-src/models/predict_model.py
-src/models/train_model.py
-src/visualization/__init__.py
-src/visualization/visualize.py
+src/utils/__init__.py
+src/utils/utils.py
