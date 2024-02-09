@@ -1,16 +1,20 @@
 import pandas as pd
 import os
+from logger import log
 from pathlib import Path
 from sklearn.model_selection import train_test_split
 
 # Define the path to the external data directory
-path = Path('/media/aqib/Software/My Boys Team Projects/project week 1/End-To-End-Malicious-Classification/data/raw_data')
+# path = Path('/media/aqib/Software/My Boys Team Projects/project week 1/End-To-End-Malicious-Classification/data/raw_data')
+path = Path('data/raw_data')
+
 # Function to load datasets
 def load_data():
     spam_df = pd.read_csv(path / 'features-domain_Spam.csv')
     phishing_df = pd.read_csv(path / 'features-domain_phishing.csv')
     malware_df = pd.read_csv(path / 'features-domain_Malware.csv')
     benign_df = pd.read_csv(path / 'features_domain_benign_csv.csv')
+    log("Data Is Loaded Successfully!")
     return spam_df, phishing_df, malware_df, benign_df
 
 # Function to preprocess datasets
@@ -28,6 +32,7 @@ def preprocess_data(spam_df, phishing_df, malware_df, benign_df):
     benign_df['label'] = 'benign'
     
     full_df = pd.concat([spam_df, phishing_df, malware_df, benign_df], ignore_index=True)
+    log("Datasets are Preprocessed after the Loading succes")
     return full_df
 
 
@@ -45,7 +50,9 @@ if __name__ == '__main__':
     # X_train, X_test, y_train, y_test = split_data(full_df)
     
     # Save the processed data
-    PROCESSED_DATA_PATH = Path('/media/aqib/Software/My Boys Team Projects/project week 1/End-To-End-Malicious-Classification/data/processed_data')
+    # PROCESSED_DATA_PATH = Path('/media/aqib/Software/My Boys Team Projects/project week 1/End-To-End-Malicious-Classification/data/processed_data')
+    PROCESSED_DATA_PATH = Path('data/processed_data')
+
     # os.makedirs(PROCESSED_DATA_PATH, exist_ok=True)
     full_df.to_csv(PROCESSED_DATA_PATH/'dataset.csv')
     # X_train.to_csv(PROCESSED_DATA_PATH / 'X_train.csv', index=False)

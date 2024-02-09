@@ -1,0 +1,39 @@
+[2024-02-09 16:24:52,259] 18 root - INFO - Dropped 'Unnamed' columns.
+[2024-02-09 16:24:52,259] 18 root - INFO - Data Columns after dropping unnamed columns: ['Domain_Age', 'sld', 'oc_8', 'Emails', 'hex_32', 'Domain_Name', 'puny_coded', 'Page_Rank', 'Alexa_Rank', '3gram', 'distance_from_bad_words', 'Country', 'hex_8', 'oc_32', 'len', 'typos', 'Registrar', 'dec_8', '2gram', 'State', '1gram', 'obfuscate_at_sign', 'entropy', 'numeric_percentage', 'Registrant_Name', 'subdomain', 'char_distribution', 'shortened', 'longest_word', 'Name_Server_Count', 'dec_32', 'Creation_Date_Time', 'Organization', 'tld', 'label']
+[2024-02-09 16:24:52,259] 18 root - INFO - Started the missing values check
+[2024-02-09 16:24:52,803] 18 root - INFO - Imputed missing values in column 'Domain_Age' with mean/mode.
+[2024-02-09 16:24:52,870] 18 root - INFO - Removed rows with missing values in column 'sld'.
+[2024-02-09 16:24:52,870] 18 root - INFO - No missing values found in column 'oc_8'.
+[2024-02-09 16:24:52,886] 18 root - INFO - Imputed missing values in column 'Emails' with mean/mode.
+[2024-02-09 16:24:52,888] 18 root - INFO - No missing values found in column 'hex_32'.
+[2024-02-09 16:24:52,922] 18 root - INFO - Imputed missing values in column 'Domain_Name' with mean/mode.
+[2024-02-09 16:24:52,930] 18 root - INFO - No missing values found in column 'puny_coded'.
+[2024-02-09 16:24:52,930] 18 root - INFO - Using ML-based approach for column 'Page_Rank'.
+[2024-02-09 16:24:52,932] 18 root - INFO - Imputed missing values in column 'Alexa_Rank' with mean/mode.
+[2024-02-09 16:24:52,934] 18 root - INFO - No missing values found in column '3gram'.
+[2024-02-09 16:24:52,934] 18 root - INFO - No missing values found in column 'distance_from_bad_words'.
+[2024-02-09 16:24:52,934] 18 root - INFO - Using ML-based approach for column 'Country'.
+[2024-02-09 16:24:52,935] 18 root - INFO - No missing values found in column 'hex_8'.
+[2024-02-09 16:24:52,935] 18 root - INFO - No missing values found in column 'oc_32'.
+[2024-02-09 16:24:52,936] 18 root - INFO - No missing values found in column 'len'.
+[2024-02-09 16:24:52,936] 18 root - INFO - No missing values found in column 'typos'.
+[2024-02-09 16:24:52,961] 18 root - INFO - Imputed missing values in column 'Registrar' with mean/mode.
+[2024-02-09 16:24:52,963] 18 root - INFO - No missing values found in column 'dec_8'.
+[2024-02-09 16:24:52,964] 18 root - INFO - No missing values found in column '2gram'.
+[2024-02-09 16:24:52,964] 18 root - INFO - Using ML-based approach for column 'State'.
+[2024-02-09 16:24:52,965] 18 root - INFO - No missing values found in column '1gram'.
+[2024-02-09 16:24:52,965] 18 root - INFO - No missing values found in column 'obfuscate_at_sign'.
+[2024-02-09 16:24:52,966] 18 root - INFO - No missing values found in column 'entropy'.
+[2024-02-09 16:24:52,966] 18 root - INFO - No missing values found in column 'numeric_percentage'.
+[2024-02-09 16:24:52,967] 18 root - INFO - Using ML-based approach for column 'Registrant_Name'.
+[2024-02-09 16:24:52,998] 18 root - INFO - Removed rows with missing values in column 'subdomain'.
+[2024-02-09 16:24:52,999] 18 root - INFO - No missing values found in column 'char_distribution'.
+[2024-02-09 16:24:53,034] 18 root - INFO - Removed rows with missing values in column 'shortened'.
+[2024-02-09 16:24:53,063] 18 root - INFO - Removed rows with missing values in column 'longest_word'.
+[2024-02-09 16:24:53,076] 18 root - INFO - Imputed missing values in column 'Name_Server_Count' with mean/mode.
+[2024-02-09 16:24:53,076] 18 root - INFO - No missing values found in column 'dec_32'.
+[2024-02-09 16:24:53,100] 18 root - INFO - Imputed missing values in column 'Creation_Date_Time' with mean/mode.
+[2024-02-09 16:24:53,100] 18 root - INFO - Using ML-based approach for column 'Organization'.
+[2024-02-09 16:24:53,134] 18 root - INFO - Removed rows with missing values in column 'tld'.
+[2024-02-09 16:24:53,134] 18 root - INFO - No missing values found in column 'label'.
+[2024-02-09 16:24:53,134] 18 root - INFO - Finally Check The Missing Values

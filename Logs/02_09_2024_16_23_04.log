@@ -1,0 +1,10 @@
+[2024-02-09 16:23:05,978] 18 root - INFO - Dropping the Unamed columns if the Data Sets has any Unnamed columns
+[2024-02-09 16:23:05,979] 18 root - INFO - Data Columns after dropping unnamed columnsIndex(['Domain_Age', 'sld', 'oc_8', 'Emails', 'hex_32', 'Domain_Name',
+       'puny_coded', 'Page_Rank', 'Alexa_Rank', '3gram',
+       'distance_from_bad_words', 'Country', 'hex_8', 'oc_32', 'len', 'typos',
+       'Registrar', 'dec_8', '2gram', 'State', '1gram', 'obfuscate_at_sign',
+       'entropy', 'numeric_percentage', 'Registrant_Name', 'subdomain',
+       'char_distribution', 'shortened', 'longest_word', 'Name_Server_Count',
+       'dec_32', 'Creation_Date_Time', 'Organization', 'tld', 'label'],
+      dtype='object')
+[2024-02-09 16:23:05,991] 18 root - INFO - Started the missing values check

@@ -1,0 +1,37 @@
+[2024-02-09 16:28:58,783] 18 root - INFO - Dropped 'Unnamed' columns.
+[2024-02-09 16:28:58,783] 18 root - INFO - Data Columns after dropping unnamed columns: ['Domain_Age', 'sld', 'oc_8', 'Emails', 'hex_32', 'Domain_Name', 'puny_coded', 'Page_Rank', 'Alexa_Rank', '3gram', 'distance_from_bad_words', 'Country', 'hex_8', 'oc_32', 'len', 'typos', 'Registrar', 'dec_8', '2gram', 'State', '1gram', 'obfuscate_at_sign', 'entropy', 'numeric_percentage', 'Registrant_Name', 'subdomain', 'char_distribution', 'shortened', 'longest_word', 'Name_Server_Count', 'dec_32', 'Creation_Date_Time', 'Organization', 'tld', 'label']
+[2024-02-09 16:28:58,954] 18 root - INFO - Imputed missing values in column 'Domain_Age' with mean/mode.
+[2024-02-09 16:28:58,987] 18 root - INFO - Removed rows with missing values in column 'sld'.
+[2024-02-09 16:28:58,988] 18 root - INFO - No missing values found in column 'oc_8'.
+[2024-02-09 16:28:59,018] 18 root - INFO - Imputed missing values in column 'Emails' with mean/mode.
+[2024-02-09 16:28:59,019] 18 root - INFO - No missing values found in column 'hex_32'.
+[2024-02-09 16:28:59,056] 18 root - INFO - Imputed missing values in column 'Domain_Name' with mean/mode.
+[2024-02-09 16:28:59,056] 18 root - INFO - No missing values found in column 'puny_coded'.
+[2024-02-09 16:28:59,057] 18 root - INFO - Using ML-based approach for column 'Page_Rank'.
+[2024-02-09 16:28:59,060] 18 root - INFO - Imputed missing values in column 'Alexa_Rank' with mean/mode.
+[2024-02-09 16:28:59,061] 18 root - INFO - No missing values found in column '3gram'.
+[2024-02-09 16:28:59,062] 18 root - INFO - No missing values found in column 'distance_from_bad_words'.
+[2024-02-09 16:28:59,063] 18 root - INFO - Using ML-based approach for column 'Country'.
+[2024-02-09 16:28:59,064] 18 root - INFO - No missing values found in column 'hex_8'.
+[2024-02-09 16:28:59,066] 18 root - INFO - No missing values found in column 'oc_32'.
+[2024-02-09 16:28:59,067] 18 root - INFO - No missing values found in column 'len'.
+[2024-02-09 16:28:59,068] 18 root - INFO - No missing values found in column 'typos'.
+[2024-02-09 16:28:59,086] 18 root - INFO - Imputed missing values in column 'Registrar' with mean/mode.
+[2024-02-09 16:28:59,087] 18 root - INFO - No missing values found in column 'dec_8'.
+[2024-02-09 16:28:59,087] 18 root - INFO - No missing values found in column '2gram'.
+[2024-02-09 16:28:59,088] 18 root - INFO - Using ML-based approach for column 'State'.
+[2024-02-09 16:28:59,089] 18 root - INFO - No missing values found in column '1gram'.
+[2024-02-09 16:28:59,089] 18 root - INFO - No missing values found in column 'obfuscate_at_sign'.
+[2024-02-09 16:28:59,090] 18 root - INFO - No missing values found in column 'entropy'.
+[2024-02-09 16:28:59,091] 18 root - INFO - No missing values found in column 'numeric_percentage'.
+[2024-02-09 16:28:59,091] 18 root - INFO - Using ML-based approach for column 'Registrant_Name'.
+[2024-02-09 16:28:59,132] 18 root - INFO - Removed rows with missing values in column 'subdomain'.
+[2024-02-09 16:28:59,134] 18 root - INFO - No missing values found in column 'char_distribution'.
+[2024-02-09 16:28:59,169] 18 root - INFO - Removed rows with missing values in column 'shortened'.
+[2024-02-09 16:28:59,201] 18 root - INFO - Removed rows with missing values in column 'longest_word'.
+[2024-02-09 16:28:59,220] 18 root - INFO - Imputed missing values in column 'Name_Server_Count' with mean/mode.
+[2024-02-09 16:28:59,221] 18 root - INFO - No missing values found in column 'dec_32'.
+[2024-02-09 16:28:59,249] 18 root - INFO - Imputed missing values in column 'Creation_Date_Time' with mean/mode.
+[2024-02-09 16:28:59,250] 18 root - INFO - Using ML-based approach for column 'Organization'.
+[2024-02-09 16:28:59,330] 18 root - INFO - Removed rows with missing values in column 'tld'.
+[2024-02-09 16:28:59,331] 18 root - INFO - No missing values found in column 'label'.

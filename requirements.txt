@@ -6,10 +6,10 @@ pandas
 matplotlib
 scikit-learn
 # Natural language processing libraries
-nltk
-spaCy
+# nltk
+# spaCy
 # Computer vision libraries
 # opencv-python
 # Other useful libraries
-jupyter
-tqdm
+# jupyter
+# tqdm

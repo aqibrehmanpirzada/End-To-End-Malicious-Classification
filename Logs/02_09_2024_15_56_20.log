@@ -1,0 +1,61 @@
+[2024-02-09 15:56:21,487] 18 root - INFO - Data loaded successfully
+[2024-02-09 15:56:21,488] 18 root - INFO - Number of rows: 50159
+[2024-02-09 15:56:21,488] 18 root - INFO - Number of columns: 37
+[2024-02-09 15:56:21,488] 18 root - INFO - Columns with missing values:
+[2024-02-09 15:56:21,568] 18 root - INFO -  - Domain_Age: 2976 missing values
+[2024-02-09 15:56:21,571] 18 root - INFO -  - sld: 17 missing values
+[2024-02-09 15:56:21,573] 18 root - INFO -  - Emails: 12575 missing values
+[2024-02-09 15:56:21,579] 18 root - INFO -  - Domain_Name: 6179 missing values
+[2024-02-09 15:56:21,580] 18 root - INFO -  - Page_Rank: 19534 missing values
+[2024-02-09 15:56:21,580] 18 root - INFO -  - Alexa_Rank: 2976 missing values
+[2024-02-09 15:56:21,584] 18 root - INFO -  - Country: 17136 missing values
+[2024-02-09 15:56:21,588] 18 root - INFO -  - Registrar: 10084 missing values
+[2024-02-09 15:56:21,592] 18 root - INFO -  - State: 20345 missing values
+[2024-02-09 15:56:21,596] 18 root - INFO -  - Registrant_Name: 48790 missing values
+[2024-02-09 15:56:21,596] 18 root - INFO -  - subdomain: 9 missing values
+[2024-02-09 15:56:21,601] 18 root - INFO -  - shortened: 190 missing values
+[2024-02-09 15:56:21,607] 18 root - INFO -  - longest_word: 21 missing values
+[2024-02-09 15:56:21,612] 18 root - INFO -  - Name_Server_Count: 2976 missing values
+[2024-02-09 15:56:21,616] 18 root - INFO -  - Creation_Date_Time: 9570 missing values
+[2024-02-09 15:56:21,622] 18 root - INFO -  - Organization: 21824 missing values
+[2024-02-09 15:56:21,627] 18 root - INFO -  - tld: 9 missing values
+[2024-02-09 15:56:21,629] 18 root - INFO -  - Unnamed: 34: 50150 missing values
+[2024-02-09 15:56:21,629] 18 root - INFO - Data types:
+[2024-02-09 15:56:21,629] 18 root - INFO - Unnamed: 0                   int64
+Domain_Age                  object
+sld                         object
+oc_8                         int64
+Emails                      object
+hex_32                       int64
+Domain_Name                 object
+puny_coded                   int64
+Page_Rank                  float64
+Alexa_Rank                 float64
+3gram                       object
+distance_from_bad_words     object
+Country                     object
+hex_8                        int64
+oc_32                        int64
+len                          int64
+typos                       object
+Registrar                   object
+dec_8                        int64
+2gram                       object
+State                       object
+1gram                       object
+obfuscate_at_sign           object
+entropy                    float64
+numeric_percentage         float64
+Registrant_Name             object
+subdomain                  float64
+char_distribution           object
+shortened                   object
+longest_word                object
+Name_Server_Count           object
+dec_32                       int64
+Creation_Date_Time          object
+Organization                object
+tld                         object
+Unnamed: 34                 object
+label                       object
+dtype: object

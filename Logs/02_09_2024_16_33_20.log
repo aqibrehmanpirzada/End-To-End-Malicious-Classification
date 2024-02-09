@@ -1,0 +1,37 @@
+[2024-02-09 16:33:21,776] 18 root - INFO - Dropped 'Unnamed' columns.
+[2024-02-09 16:33:21,782] 18 root - INFO - Data Columns after dropping unnamed columns: ['Domain_Age', 'sld', 'oc_8', 'Emails', 'hex_32', 'Domain_Name', 'puny_coded', 'Page_Rank', 'Alexa_Rank', '3gram', 'distance_from_bad_words', 'Country', 'hex_8', 'oc_32', 'len', 'typos', 'Registrar', 'dec_8', '2gram', 'State', '1gram', 'obfuscate_at_sign', 'entropy', 'numeric_percentage', 'Registrant_Name', 'subdomain', 'char_distribution', 'shortened', 'longest_word', 'Name_Server_Count', 'dec_32', 'Creation_Date_Time', 'Organization', 'tld', 'label']
+[2024-02-09 16:33:21,930] 18 root - INFO - For column 'Domain_Age', consider imputing missing values with mean (numerical) or mode (categorical).
+[2024-02-09 16:33:21,931] 18 root - INFO - For column 'sld', you may choose to remove rows with missing values.
+[2024-02-09 16:33:21,932] 18 root - INFO - No missing values found in column 'oc_8'.
+[2024-02-09 16:33:21,932] 18 root - INFO - For column 'Emails', consider imputing missing values with mean (numerical) or mode (categorical).
+[2024-02-09 16:33:21,933] 18 root - INFO - No missing values found in column 'hex_32'.
+[2024-02-09 16:33:21,934] 18 root - INFO - For column 'Domain_Name', consider imputing missing values with mean (numerical) or mode (categorical).
+[2024-02-09 16:33:21,934] 18 root - INFO - No missing values found in column 'puny_coded'.
+[2024-02-09 16:33:21,935] 18 root - INFO - For column 'Page_Rank', consider using ML-based approaches for handling missing values.
+[2024-02-09 16:33:21,936] 18 root - INFO - For column 'Alexa_Rank', consider imputing missing values with mean (numerical) or mode (categorical).
+[2024-02-09 16:33:21,937] 18 root - INFO - No missing values found in column '3gram'.
+[2024-02-09 16:33:21,938] 18 root - INFO - No missing values found in column 'distance_from_bad_words'.
+[2024-02-09 16:33:21,938] 18 root - INFO - For column 'Country', consider using ML-based approaches for handling missing values.
+[2024-02-09 16:33:21,940] 18 root - INFO - No missing values found in column 'hex_8'.
+[2024-02-09 16:33:21,941] 18 root - INFO - No missing values found in column 'oc_32'.
+[2024-02-09 16:33:21,942] 18 root - INFO - No missing values found in column 'len'.
+[2024-02-09 16:33:21,943] 18 root - INFO - No missing values found in column 'typos'.
+[2024-02-09 16:33:21,944] 18 root - INFO - For column 'Registrar', consider imputing missing values with mean (numerical) or mode (categorical).
+[2024-02-09 16:33:21,945] 18 root - INFO - No missing values found in column 'dec_8'.
+[2024-02-09 16:33:21,946] 18 root - INFO - No missing values found in column '2gram'.
+[2024-02-09 16:33:21,947] 18 root - INFO - For column 'State', consider using ML-based approaches for handling missing values.
+[2024-02-09 16:33:21,949] 18 root - INFO - No missing values found in column '1gram'.
+[2024-02-09 16:33:21,953] 18 root - INFO - No missing values found in column 'obfuscate_at_sign'.
+[2024-02-09 16:33:21,954] 18 root - INFO - No missing values found in column 'entropy'.
+[2024-02-09 16:33:21,955] 18 root - INFO - No missing values found in column 'numeric_percentage'.
+[2024-02-09 16:33:21,956] 18 root - INFO - For column 'Registrant_Name', consider using ML-based approaches for handling missing values.
+[2024-02-09 16:33:21,957] 18 root - INFO - For column 'subdomain', you may choose to remove rows with missing values.
+[2024-02-09 16:33:21,958] 18 root - INFO - No missing values found in column 'char_distribution'.
+[2024-02-09 16:33:21,958] 18 root - INFO - For column 'shortened', you may choose to remove rows with missing values.
+[2024-02-09 16:33:21,959] 18 root - INFO - For column 'longest_word', you may choose to remove rows with missing values.
+[2024-02-09 16:33:21,960] 18 root - INFO - For column 'Name_Server_Count', consider imputing missing values with mean (numerical) or mode (categorical).
+[2024-02-09 16:33:21,961] 18 root - INFO - No missing values found in column 'dec_32'.
+[2024-02-09 16:33:21,962] 18 root - INFO - For column 'Creation_Date_Time', consider imputing missing values with mean (numerical) or mode (categorical).
+[2024-02-09 16:33:21,965] 18 root - INFO - For column 'Organization', consider using ML-based approaches for handling missing values.
+[2024-02-09 16:33:21,967] 18 root - INFO - For column 'tld', you may choose to remove rows with missing values.
+[2024-02-09 16:33:21,970] 18 root - INFO - No missing values found in column 'label'.
