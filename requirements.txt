@@ -5,11 +5,6 @@ scipy
 pandas
 matplotlib
 scikit-learn
-# Natural language processing libraries
-# nltk
-# spaCy
-# Computer vision libraries
-# opencv-python
-# Other useful libraries
-# jupyter
-# tqdm
+uvicorn
+fastapi
+
