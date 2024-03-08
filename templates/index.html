@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Deployed API</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Model App Interface</h2>
+        <form action="/predict" method="post">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="sld">SLD:</label>
+                    <input type="number" class="form-control" id="sld" name="sld" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="puny_coded">Puny Coded:</label>
+                    <input type="number" class="form-control" id="puny_coded" name="puny_coded" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="Alexa_Rank">Alexa Rank:</label>
+                    <input type="number" step="any" class="form-control" id="Alexa_Rank" name="Alexa_Rank" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="distance_from_bad_words">Distance from Bad Words:</label>
+                    <input type="number" step="any" class="form-control" id="distance_from_bad_words" name="distance_from_bad_words" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="Country">Country:</label>
+                    <input type="number" class="form-control" id="Country" name="Country" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="State">State:</label>
+                    <input type="number" class="form-control" id="State" name="State" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="obfuscate_at_sign">Obfuscate at Sign:</label>
+                    <input type="number" class="form-control" id="obfuscate_at_sign" name="obfuscate_at_sign" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="entropy">Entropy:</label>
+                    <input type="number" step="any" class="form-control" id="entropy" name="entropy" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="numeric_percentage">Numeric Percentage:</label>
+                    <input type="number" step="any" class="form-control" id="numeric_percentage" name="numeric_percentage" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="subdomain">Subdomain:</label>
+                    <input type="number" step="any" class="form-control" id="subdomain" name="subdomain" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="shortened">Shortened:</label>
+                    <input type="number" class="form-control" id="shortened" name="shortened" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="longest_word">Longest Word:</label>
+                    <input type="number" class="form-control" id="longest_word" name="longest_word" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="Name_Server_Count">Name Server Count:</label>
+                    <input type="number" class="form-control" id="Name_Server_Count" name="Name_Server_Count" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="tld">TLD:</label>
+                    <input type="number" class="form-control" id="tld" name="tld" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="Domain_Age_in_days">Domain Age in Days:</label>
+                    <input type="number" class="form-control" id="Domain_Age_in_days" name="Domain_Age_in_days" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="Creation_year">Creation Year:</label>
+                    <input type="number" step="any" class="form-control" id="Creation_year" name="Creation_year" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="Creation_month">Creation Month:</label>
+                    <input type="number" step="any" class="form-control" id="Creation_month" name="Creation_month" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="Creation_day">Creation Day:</label>
+                    <input type="number" step="any" class="form-control" id="Creation_day" name="Creation_day" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="Creation_hour">Creation Hour:</label>
+                    <input type="number" step="any" class="form-control" id="Creation_hour" name="Creation_hour" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="Creation_minute">Creation Minute:</label>
+                    <input type="number" step="any" class="form-control" id="Creation_minute" name="Creation_minute" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="Creation_second">Creation Second:</label>
+                    <input type="number" step="any" class="form-control" id="Creation_second" name="Creation_second" required>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
